@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3466,8 +3466,8 @@ SOIC, 0.3 inch width</description>
 <wire x1="2.025" y1="0" x2="-9.925" y2="0" width="0.0508" layer="51"/>
 <wire x1="-9.925" y1="0" x2="-9.925" y2="3.5" width="0.0508" layer="51"/>
 <wire x1="9.925" y1="3.5" x2="9.925" y2="0" width="0.0508" layer="51"/>
-<wire x1="10.4" y1="4" x2="9.925" y2="3.5" width="0.0508" layer="51" curve="84.949116"/>
-<wire x1="-10.4" y1="4" x2="-9.925" y2="3.5" width="0.0508" layer="51" curve="-83.820277"/>
+<wire x1="10.425" y1="4" x2="9.925" y2="3.5" width="0.0508" layer="51" curve="90"/>
+<wire x1="-10.425" y1="4" x2="-9.925" y2="3.5" width="0.0508" layer="51" curve="-90"/>
 <smd name="1" x="9.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
 <smd name="2" x="9" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
 <smd name="3" x="8.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
@@ -3542,14 +3542,6 @@ SOIC, 0.3 inch width</description>
 <wire x1="2.025" y1="2.9" x2="2.025" y2="0" width="0.0508" layer="51"/>
 <wire x1="3.225" y1="2.9" x2="2.025" y2="2.9" width="0.0508" layer="51" curve="180"/>
 <wire x1="-10.3" y1="0.55" x2="10.7" y2="0.55" width="0.02" layer="51"/>
-<text x="-0.02" y="-1" size="0.762" layer="46" ratio="15" rot="R180" align="center">Chamfered Edge</text>
-<wire x1="10.58" y1="-0.8" x2="9.98" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="9.98" y1="-0.2" x2="9.98" y2="-0.6" width="0.1016" layer="46"/>
-<wire x1="9.98" y1="-0.2" x2="10.38" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="-10.62" y1="-0.8" x2="-10.02" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="-10.02" y1="-0.2" x2="-10.42" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="-10.02" y1="-0.2" x2="-10.02" y2="-0.6" width="0.1016" layer="46"/>
-<text x="-0.02" y="-2.27" size="0.762" layer="46" ratio="15" rot="R180" align="center">0.8mm PCB</text>
 <rectangle x1="3.961" y1="3.675" x2="4.601" y2="3.715" layer="21"/>
 <rectangle x1="3.881" y1="3.635" x2="4.681" y2="3.675" layer="21"/>
 <rectangle x1="3.841" y1="3.595" x2="4.681" y2="3.635" layer="21"/>
@@ -3577,9 +3569,9 @@ SOIC, 0.3 inch width</description>
 <rectangle x1="3.841" y1="2.715" x2="4.681" y2="2.755" layer="21"/>
 <rectangle x1="3.841" y1="2.675" x2="4.681" y2="2.715" layer="21"/>
 <rectangle x1="3.881" y1="2.635" x2="4.641" y2="2.675" layer="21"/>
-<wire x1="-10.4" y1="4" x2="-18.746" y2="4" width="0.0508" layer="51"/>
+<wire x1="-10.425" y1="4" x2="-18.746" y2="4" width="0.0508" layer="51"/>
 <wire x1="-18.746" y1="4" x2="-18.746" y2="65" width="0.0508" layer="51"/>
-<wire x1="10.4" y1="4" x2="18.746" y2="4" width="0.0508" layer="51"/>
+<wire x1="10.425" y1="4" x2="18.746" y2="4" width="0.0508" layer="51"/>
 <wire x1="18.746" y1="4" x2="18.746" y2="65" width="0.0508" layer="51"/>
 <wire x1="-18.746" y1="65" x2="18.746" y2="65" width="0.0508" layer="51"/>
 <pad name="GND6" x="18" y="46.1" drill="0.3048" diameter="0.6096" rot="R270"/>
@@ -3682,6 +3674,18 @@ Out</text>
 </polygon>
 <wire x1="-18.747" y1="45.733" x2="-18.745" y2="42.271" width="0.05" layer="20" curve="-163.207251"/>
 <wire x1="18.744" y1="45.731" x2="18.748" y2="42.27" width="0.05" layer="20" curve="163.526612"/>
+<text x="-5.02" y="-0.95" size="0.762" layer="46" font="vector" ratio="10" rot="R180" align="center">Chamfered edge</text>
+<wire x1="10.58" y1="-0.75" x2="9.98" y2="-0.15" width="0.1016" layer="46"/>
+<wire x1="9.98" y1="-0.15" x2="9.98" y2="-0.55" width="0.1016" layer="46"/>
+<wire x1="9.98" y1="-0.15" x2="10.38" y2="-0.15" width="0.1016" layer="46"/>
+<wire x1="-10.62" y1="-0.75" x2="-10.02" y2="-0.15" width="0.1016" layer="46"/>
+<wire x1="-10.02" y1="-0.15" x2="-10.42" y2="-0.15" width="0.1016" layer="46"/>
+<wire x1="-10.02" y1="-0.15" x2="-10.02" y2="-0.55" width="0.1016" layer="46"/>
+<text x="-5.02" y="-2.22" size="0.762" layer="46" font="vector" ratio="10" rot="R180" align="center">0.8mm PCB</text>
+<text x="-3" y="-4.5" size="0.762" layer="46" font="vector" ratio="10" rot="R180" align="center">Critical dimension</text>
+<text x="-3" y="-6.5" size="0.762" layer="46" font="vector" ratio="10" rot="R180" align="center">Mill using correctly
+sized tool</text>
+<dimension x1="2.025" y1="-0.2" x2="3.225" y2="-0.2" x3="2.625" y3="-8" textsize="1.016" layer="46" dtype="horizontal" visible="yes"/>
 </package>
 <package name="M.2-CONNECTOR-E-FUNCTION-STANDARD">
 <hole x="10" y="0" drill="1.1"/>
@@ -3860,19 +3864,19 @@ Out</text>
 <symbols>
 <symbol name="MICROMOD_FUNCTION">
 <wire x1="-15.24" y1="27.94" x2="15.24" y2="27.94" width="0.254" layer="94"/>
-<wire x1="15.24" y1="27.94" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-33.02" x2="-15.24" y2="27.94" width="0.254" layer="94"/>
-<pin name="GND" x="-17.78" y="-30.48" length="short"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-35.56" x2="-15.24" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-35.56" x2="-15.24" y2="27.94" width="0.254" layer="94"/>
+<pin name="GND" x="-17.78" y="-33.02" length="short"/>
 <pin name="I2C_!INT!" x="17.78" y="15.24" length="short" rot="R180"/>
 <pin name="SPI_SCK" x="17.78" y="25.4" length="short" rot="R180"/>
 <pin name="SPI_SDO" x="17.78" y="22.86" length="short" rot="R180"/>
 <pin name="SPI_SDI" x="17.78" y="20.32" length="short" rot="R180"/>
 <pin name="3.3V" x="-17.78" y="25.4" length="short"/>
-<pin name="USBHOST_D+" x="-17.78" y="2.54" length="short"/>
-<pin name="USBHOST_D-" x="-17.78" y="5.08" length="short"/>
-<pin name="CAN-RX" x="-17.78" y="-5.08" length="short"/>
-<pin name="CAN-TX" x="-17.78" y="-2.54" length="short"/>
+<pin name="USBHOST_D+" x="-17.78" y="-7.62" length="short"/>
+<pin name="USBHOST_D-" x="-17.78" y="-5.08" length="short"/>
+<pin name="CAN-TX" x="-17.78" y="-15.24" length="short"/>
+<pin name="CAN-RX" x="-17.78" y="-12.7" length="short"/>
 <pin name="I2C_SCL" x="17.78" y="12.7" length="short" rot="R180"/>
 <pin name="I2C_SDA" x="17.78" y="10.16" length="short" rot="R180"/>
 <pin name="F0/!INT!" x="17.78" y="-12.7" length="short" rot="R180"/>
@@ -3883,20 +3887,25 @@ Out</text>
 <pin name="F3" x="17.78" y="-20.32" length="short" rot="R180"/>
 <pin name="F5" x="17.78" y="-25.4" length="short" rot="R180"/>
 <text x="-15.24" y="28.448" size="1.778" layer="95">&gt;Name</text>
-<text x="-15.24" y="-35.56" size="1.778" layer="96">&gt;Value</text>
+<text x="-15.24" y="-38.1" size="1.778" layer="96">&gt;Value</text>
 <pin name="VCC" x="-17.78" y="22.86" length="short"/>
-<pin name="USB_VIN" x="-17.78" y="7.62" length="short"/>
-<pin name="PWR_EN" x="-17.78" y="15.24" length="short"/>
+<pin name="USB_VIN" x="-17.78" y="-2.54" length="short"/>
+<pin name="PWR_EN" x="-17.78" y="17.78" length="short"/>
 <pin name="RX" x="17.78" y="5.08" length="short" rot="R180"/>
 <pin name="CTS" x="17.78" y="0" length="short" rot="R180"/>
 <pin name="TX" x="17.78" y="2.54" length="short" rot="R180"/>
 <pin name="RTS" x="17.78" y="-2.54" length="short" rot="R180"/>
 <pin name="A0" x="17.78" y="-7.62" length="short" rot="R180"/>
-<pin name="EEPROM_A0" x="-17.78" y="-12.7" length="short"/>
-<pin name="EEPROM_A1" x="-17.78" y="-15.24" length="short"/>
-<pin name="EEPROM_A2" x="-17.78" y="-17.78" length="short"/>
+<pin name="EEPROM_A0" x="-17.78" y="-20.32" length="short"/>
+<pin name="EEPROM_A1" x="-17.78" y="-22.86" length="short"/>
+<pin name="EEPROM_A2" x="-17.78" y="-25.4" length="short"/>
 <pin name="F7" x="17.78" y="-30.48" length="short" rot="R180"/>
-<pin name="EEPROM_WP" x="-17.78" y="-20.32" length="short"/>
+<pin name="EEPROM_WP" x="-17.78" y="-27.94" length="short"/>
+<pin name="DFU_!RST!" x="-17.78" y="12.7" length="short"/>
+<pin name="DFU_!BOOT!" x="-17.78" y="10.16" length="short"/>
+<pin name="DFU_FC_TX" x="-17.78" y="7.62" length="short"/>
+<pin name="DFU_FC_RX" x="-17.78" y="5.08" length="short"/>
+<pin name="DFU_!ACTIVE!" x="-17.78" y="2.54" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3912,9 +3921,14 @@ Out</text>
 <connects>
 <connect gate="J1" pin="3.3V" pad="73"/>
 <connect gate="J1" pin="A0" pad="38"/>
-<connect gate="J1" pin="CAN-RX" pad="41"/>
-<connect gate="J1" pin="CAN-TX" pad="43"/>
+<connect gate="J1" pin="CAN-RX" pad="43"/>
+<connect gate="J1" pin="CAN-TX" pad="41"/>
 <connect gate="J1" pin="CTS" pad="18"/>
+<connect gate="J1" pin="DFU_!ACTIVE!" pad="10"/>
+<connect gate="J1" pin="DFU_!BOOT!" pad="66"/>
+<connect gate="J1" pin="DFU_!RST!" pad="68"/>
+<connect gate="J1" pin="DFU_FC_RX" pad="6"/>
+<connect gate="J1" pin="DFU_FC_TX" pad="4"/>
 <connect gate="J1" pin="EEPROM_A0" pad="36"/>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
@@ -3927,7 +3941,7 @@ Out</text>
 <connect gate="J1" pin="F5" pad="57"/>
 <connect gate="J1" pin="F6" pad="59"/>
 <connect gate="J1" pin="F7" pad="61"/>
-<connect gate="J1" pin="GND" pad="1 33 39 45 75 GND1 GND2 GND3 GND4 GND5 GND6"/>
+<connect gate="J1" pin="GND" pad="1 2 8 33 39 45 75 GND1 GND2 GND3 GND4 GND5 GND6"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
 <connect gate="J1" pin="I2C_SDA" pad="19"/>
@@ -3951,9 +3965,14 @@ Out</text>
 <connects>
 <connect gate="J1" pin="3.3V" pad="73"/>
 <connect gate="J1" pin="A0" pad="38"/>
-<connect gate="J1" pin="CAN-RX" pad="41"/>
-<connect gate="J1" pin="CAN-TX" pad="43"/>
+<connect gate="J1" pin="CAN-RX" pad="43"/>
+<connect gate="J1" pin="CAN-TX" pad="41"/>
 <connect gate="J1" pin="CTS" pad="18"/>
+<connect gate="J1" pin="DFU_!ACTIVE!" pad="10"/>
+<connect gate="J1" pin="DFU_!BOOT!" pad="66"/>
+<connect gate="J1" pin="DFU_!RST!" pad="68"/>
+<connect gate="J1" pin="DFU_FC_RX" pad="6"/>
+<connect gate="J1" pin="DFU_FC_TX" pad="4"/>
 <connect gate="J1" pin="EEPROM_A0" pad="36"/>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
@@ -3966,7 +3985,7 @@ Out</text>
 <connect gate="J1" pin="F5" pad="57"/>
 <connect gate="J1" pin="F6" pad="59"/>
 <connect gate="J1" pin="F7" pad="61"/>
-<connect gate="J1" pin="GND" pad="1 33 39 45 75"/>
+<connect gate="J1" pin="GND" pad="1 2 8 33 39 45 75"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
 <connect gate="J1" pin="I2C_SDA" pad="19"/>
@@ -6814,7 +6833,7 @@ Resistor</text>
 </instance>
 <instance part="J1" gate="J1" x="35.56" y="142.24" smashed="yes">
 <attribute name="NAME" x="20.32" y="170.688" size="1.778" layer="95"/>
-<attribute name="VALUE" x="20.32" y="106.68" size="1.778" layer="96"/>
+<attribute name="VALUE" x="20.32" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="137.16" y="50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="139.7" y="55.626" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -6835,8 +6854,8 @@ Resistor</text>
 <instance part="SUPPLY1" gate="G$1" x="15.24" y="170.18" smashed="yes">
 <attribute name="VALUE" x="15.24" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="15.24" y="106.68" smashed="yes">
-<attribute name="VALUE" x="15.24" y="106.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="15.24" y="104.14" smashed="yes">
+<attribute name="VALUE" x="15.24" y="103.886" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U2" gate="&gt;NAME" x="111.76" y="154.94" smashed="yes">
 <attribute name="NAME" x="101.6" y="171.45" size="1.778" layer="95"/>
@@ -6975,11 +6994,11 @@ Resistor</text>
 <instance part="SUPPLY3" gate="G$1" x="137.16" y="119.38" smashed="yes">
 <attribute name="VALUE" x="137.16" y="122.174" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="15.24" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.7" y="144.78" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="TP1" gate="G$1" x="15.24" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.7" y="137.16" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="TP2" gate="G$1" x="15.24" y="137.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.7" y="134.62" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="TP2" gate="G$1" x="15.24" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.7" y="121.92" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="TP3" gate="G$1" x="167.64" y="144.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="170.18" y="142.24" size="1.778" layer="95" font="vector"/>
@@ -7083,32 +7102,34 @@ Resistor</text>
 <nets>
 <net name="MM_TXCAN" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="CAN-TX"/>
-<wire x1="17.78" y1="139.7" x2="15.24" y2="139.7" width="0.1524" layer="91"/>
-<label x="12.7" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="139.7" x2="12.7" y2="139.7" width="0.1524" layer="91"/>
-<junction x="15.24" y="139.7"/>
-</segment>
-<segment>
 <wire x1="22.86" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <label x="17.78" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="A4"/>
 </segment>
+<segment>
+<pinref part="J1" gate="J1" pin="CAN-TX"/>
+<wire x1="17.78" y1="127" x2="15.24" y2="127" width="0.1524" layer="91"/>
+<label x="12.7" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="127" x2="12.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="127" x2="15.24" y2="124.46" width="0.1524" layer="91"/>
+<junction x="15.24" y="127"/>
+</segment>
 </net>
 <net name="MM_RXCAN" class="0">
-<segment>
-<pinref part="J1" gate="J1" pin="CAN-RX"/>
-<wire x1="17.78" y1="137.16" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
-<label x="12.7" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="137.16" x2="12.7" y2="137.16" width="0.1524" layer="91"/>
-<junction x="15.24" y="137.16"/>
-</segment>
 <segment>
 <wire x1="22.86" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="17.78" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="A5"/>
+</segment>
+<segment>
+<pinref part="J1" gate="J1" pin="CAN-RX"/>
+<wire x1="17.78" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
+<label x="12.7" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="129.54" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="129.54" x2="15.24" y2="132.08" width="0.1524" layer="91"/>
+<junction x="15.24" y="129.54"/>
 </segment>
 </net>
 <net name="MM_SDI" class="0">
@@ -7204,8 +7225,8 @@ Resistor</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="J1" pin="GND"/>
-<wire x1="17.78" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="111.76" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="109.22" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
