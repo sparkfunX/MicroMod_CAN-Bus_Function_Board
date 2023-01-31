@@ -1,0 +1,58 @@
+Partlist
+
+Exported from MicroMod_CAN-Bus_Function_Board.sch at 1/30/2023 8:49 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                           Device                          Package                         Library               Sheet
+
+C1       560pF                           560PF-0603-50V-5%               0603                            SparkFun-Capacitors   1
+C2       560pF                           560PF-0603-50V-5%               0603                            SparkFun-Capacitors   1
+C3       0.1uF                           0.1UF-0603-25V-(+80/-20%)       0603                            SparkFun-Capacitors   1
+C4       0.1uF                           0.1UF-0603-25V-(+80/-20%)       0603                            SparkFun-Capacitors   1
+C5       4.7uF                           4.7UF-0603-6.3V-(10%)           0603                            SparkFun-Capacitors   1
+C6       10uF                            10UF-0603-6.3V-20%              0603                            SparkFun-Capacitors   1
+C7       22pF                            22PF-0603-50V-5%                0603                            SparkFun-Capacitors   1
+C8       22pF                            22PF-0603-50V-5%                0603                            SparkFun-Capacitors   1
+D1       RED                             LED-RED0603                     LED-0603                        SparkFun-LED          1
+D2       Yellow                          LED-YELLOW0603                  LED-0603                        SparkFun-LED          1
+D5       PESD1CAN                        PESD1CAN                        SOT23-3                         SparkFun-DiscreteSemi 1
+J1       MICROMOD_FUNCTION_STANDARD      MICROMOD_FUNCTION_STANDARD      M.2-CARD-E-22_FUNCTION_STANDARD SparkFun-MicroMod     1
+J2                                       CONN_022.54MM_SCREWTERM         1X02_2.54_SCREWTERM             SparkFun-Connectors   1
+JP1      JUMPER-SMT_3_1-NC_TRACE_NO-SILK JUMPER-SMT_3_1-NC_TRACE_NO-SILK SMT-JUMPER_3_1-NC_TRACE_NO-SILK SparkFun-Jumpers      1
+JP2      JUMPER-SMT_3_1-NC_TRACE_NO-SILK JUMPER-SMT_3_1-NC_TRACE_NO-SILK SMT-JUMPER_3_1-NC_TRACE_NO-SILK SparkFun-Jumpers      1
+JP3      JUMPER-SMT_3_1-NC_TRACE_NO-SILK JUMPER-SMT_3_1-NC_TRACE_NO-SILK SMT-JUMPER_3_1-NC_TRACE_NO-SILK SparkFun-Jumpers      1
+JP4      JUMPER-SMT_3_1-NC_TRACE_NO-SILK JUMPER-SMT_3_1-NC_TRACE_NO-SILK SMT-JUMPER_3_1-NC_TRACE_NO-SILK SparkFun-Jumpers      1
+JP5      JUMPER-SMT_3_1-NC_TRACE_NO-SILK JUMPER-SMT_3_1-NC_TRACE_NO-SILK SMT-JUMPER_3_1-NC_TRACE_NO-SILK SparkFun-Jumpers      1
+JP6      JUMPER-SMT_2_NC_TRACE_NO-SILK   JUMPER-SMT_2_NC_TRACE_NO-SILK   SMT-JUMPER_2_NC_TRACE_NO-SILK   SparkFun-Jumpers      1
+JP7      JUMPER-SMT_2_NC_TRACE_NO-SILK   JUMPER-SMT_2_NC_TRACE_NO-SILK   SMT-JUMPER_2_NC_TRACE_NO-SILK   SparkFun-Jumpers      1
+JP8      JUMPER-SMT_2_NC_TRACE_NO-SILK   JUMPER-SMT_2_NC_TRACE_NO-SILK   SMT-JUMPER_2_NC_TRACE_NO-SILK   SparkFun-Jumpers      1
+JP9      JUMPER-SMT_2_NC_TRACE_NO-SILK   JUMPER-SMT_2_NC_TRACE_NO-SILK   SMT-JUMPER_2_NC_TRACE_NO-SILK   SparkFun-Jumpers      1
+JP10     JUMPER-SMT_2_NC_TRACE_NO-SILK   JUMPER-SMT_2_NC_TRACE_NO-SILK   SMT-JUMPER_2_NC_TRACE_NO-SILK   SparkFun-Jumpers      1
+JP11     JUMPER-SMT_2_NO_NO-SILK         JUMPER-SMT_2_NO_NO-SILK         SMT-JUMPER_2_NO_NO-SILK         SparkFun-Jumpers      1
+JP12     JUMPER-SMT_2_NC_TRACE_NO-SILK   JUMPER-SMT_2_NC_TRACE_NO-SILK   SMT-JUMPER_2_NC_TRACE_NO-SILK   SparkFun-Jumpers      1
+L1       4.7µH/±30%/1.2A                 INDUCTOR-CDRH-4.7UH             INDUCTOR_4.7UH                  SparkFun-Coils        1
+Q1       220mA/50V/3.5?                  MOSFET-NCH-BSS138               SOT23-3                         SparkFun-DiscreteSemi 1
+R1       4.7k                            4.7KOHM-0603-1/10W-1%           0603                            SparkFun-Resistors    1
+R2       100                             100OHM-0603-1/10W-1%            0603                            SparkFun-Resistors    1
+R3       100                             100OHM-0603-1/10W-1%            0603                            SparkFun-Resistors    1
+R4       1k                              1KOHM-0603-1/10W-1%             0603                            SparkFun-Resistors    1
+R5       120OHM                          120OHM                          0603                            SparkFun-Resistors    1
+R6       10k                             10KOHM-0603-1/10W-1%            0603                            SparkFun-Resistors    1
+R7       10k                             10KOHM-0603-1/10W-1%            0603                            SparkFun-Resistors    1
+R8       100k                            100KOHM-0603-1/10W-1%           0603                            SparkFun-Resistors    1
+R9       10k                             10KOHM-0603-1/10W-1%            0603                            SparkFun-Resistors    1
+TP1      TEST-POINT3                     TEST-POINT3                     PAD.03X.03                      SparkFun-Connectors   1
+TP2      TEST-POINT3                     TEST-POINT3                     PAD.03X.03                      SparkFun-Connectors   1
+TP3      TEST-POINT3                     TEST-POINT3                     PAD.03X.03                      SparkFun-Connectors   1
+TP4      TEST-POINT3                     TEST-POINT3                     PAD.03X.03                      SparkFun-Connectors   1
+TP5      TEST-POINT3                     TEST-POINT3                     PAD.03X.03                      SparkFun-Connectors   1
+TP6      TEST-POINT3                     TEST-POINT3                     PAD.03X.03                      SparkFun-Connectors   1
+U1       XC9140                          XC9140                          SOT23-5                         SparkFun-IC-Power     1
+U2       MCP2515                         MCP2515(MCP2510)SO              SO18W                           SparkFun-IC-Comms     1
+U3       TXS0108                         TXS0108-VFQFN_20                VFQFN-20                        SparkFun-IC-Comms     1
+U4       MCP2551                         MCP2551                         SO08                            SparkFun-IC-Comms     1
+X1       DB9 Plug                        DB9MALE                         DB9_MALE                        SparkFun-Connectors   1
+Y1       16MHz                           CRYSTAL-16MHZSMD-2X1.6          CRYSTAL-SMD-2.0X1.6MM           SparkFun-Clocks       1

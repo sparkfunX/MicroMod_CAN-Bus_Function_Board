@@ -6813,6 +6813,7 @@ Resistor</text>
 <text x="71.12" y="33.02" size="2.54" layer="97" align="top-left">CAN Bus Transceiver </text>
 <wire x1="226.06" y1="63.5" x2="226.06" y2="121.92" width="0.2032" layer="97" style="longdash"/>
 <text x="228.6" y="119.38" size="2.54" layer="97" align="top-left">CAN VCC LED</text>
+<text x="149.86" y="7.62" size="2.54" layer="94">Nick P</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="175.26" y="50.8" smashed="yes">
