@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME>
+SparkX MicroMod CAN Bus Function Board
 ========================================
 
 [![MicroMod CAN Bus Function Board](https://cdn.sparkfun.com//assets/parts/2/1/5/8/2/21775-_SPX_Function_CAN_Bus-_2.jpg)](https://www.sparkfun.com/products/21775)
