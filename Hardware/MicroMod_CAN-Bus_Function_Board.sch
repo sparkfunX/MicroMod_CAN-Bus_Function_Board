@@ -6798,21 +6798,21 @@ Used in manufacturing several products at SparkFun.
 <wire x1="203.2" y1="121.92" x2="226.06" y2="121.92" width="0.2032" layer="97" style="longdash"/>
 <wire x1="226.06" y1="121.92" x2="248.92" y2="121.92" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="63.5" x2="114.3" y2="63.5" width="0.2032" layer="97" style="longdash"/>
-<text x="2.54" y="182.88" size="2.54" layer="97" align="top-left">MicroMod Connector</text>
-<text x="71.12" y="182.88" size="2.54" layer="97" align="top-left">CAN Bus Controller</text>
-<text x="149.86" y="182.88" size="2.54" layer="97" align="top-left">Configuration Jumpers</text>
-<text x="205.74" y="182.88" size="2.54" layer="97" align="top-left">CAN VCC Detect</text>
-<text x="205.74" y="119.38" size="2.54" layer="97" align="top-left">Power LED</text>
-<text x="149.86" y="60.96" size="2.54" layer="97" align="top-left">DE9</text>
-<text x="116.84" y="60.96" size="2.54" layer="97" align="top-left">Screw Terminal</text>
-<text x="116.84" y="93.98" size="2.54" layer="97" align="top-left">CAN Termination
+<text x="2.54" y="182.88" size="2.1844" layer="97" align="top-left">MicroMod Connector</text>
+<text x="71.12" y="182.88" size="2.1844" layer="97" align="top-left">CAN Bus Controller</text>
+<text x="149.86" y="182.88" size="2.1844" layer="97" align="top-left">Configuration Jumpers</text>
+<text x="205.74" y="182.88" size="2.1844" layer="97" align="top-left">CAN VCC Detect</text>
+<text x="205.74" y="119.38" size="2.1844" layer="97" align="top-left">Power LED</text>
+<text x="149.86" y="60.96" size="2.1844" layer="97" align="top-left">DE9</text>
+<text x="116.84" y="60.96" size="2.1844" layer="97" align="top-left">Screw Terminal</text>
+<text x="116.84" y="93.98" size="2.1844" layer="97" align="top-left">CAN Termination
 Resistor</text>
-<text x="71.12" y="93.98" size="2.54" layer="97" align="top-left">CAN Bus Protection</text>
-<text x="2.54" y="93.98" size="2.54" layer="97" align="top-left">Logic Level Conversion</text>
-<text x="2.54" y="33.02" size="2.54" layer="97" align="top-left">5V Boost</text>
-<text x="71.12" y="33.02" size="2.54" layer="97" align="top-left">CAN Bus Transceiver </text>
+<text x="71.12" y="93.98" size="2.1844" layer="97" align="top-left">CAN Bus Protection</text>
+<text x="2.54" y="93.98" size="2.1844" layer="97" align="top-left">Logic Level Conversion</text>
+<text x="2.54" y="33.02" size="2.1844" layer="97" align="top-left">5V Boost</text>
+<text x="71.12" y="33.02" size="2.1844" layer="97" align="top-left">CAN Bus Transceiver </text>
 <wire x1="226.06" y1="63.5" x2="226.06" y2="121.92" width="0.2032" layer="97" style="longdash"/>
-<text x="228.6" y="119.38" size="2.54" layer="97" align="top-left">CAN VCC LED</text>
+<text x="228.6" y="119.38" size="2.1844" layer="97" align="top-left">CAN VCC LED</text>
 <text x="149.86" y="7.62" size="2.54" layer="94">Nick P</text>
 </plain>
 <instances>
