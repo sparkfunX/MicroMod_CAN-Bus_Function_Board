@@ -1,41 +1,26 @@
 SparkFun <PRODUCT NAME>
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![MicroMod CAN Bus Function Board](https://cdn.sparkfun.com//assets/parts/2/1/5/8/2/21775-_SPX_Function_CAN_Bus-_2.jpg)](https://www.sparkfun.com/products/21775)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*MicroMod CAN Bus Function Board (SPX-21775)*](https://www.sparkfun.com/products/21775)
 
-<Basic description of the part.>
+Controller Area Network (CAN bus) continues to be a popular communication standard in all sorts of applications from passenger vehicles to lighting control and building automation. This MicroMod function board allows you to add CAN networking to your next MicroMod project. 
+
+The CAN communications are handled by the MCP2515 stand-alone CAN controller paired up with an MCP2551 high-speed CAN transceiver. The MCP2515 is a very popular IC for CAN Bus, which means there are a variety of Arduino libraries already available. We quite like Sandeep Mistry's [arduino-CAN Library](https://github.com/sandeepmistry/arduino-CAN). If your processor board has a built-in CAN controller, however, you can change a solder jumper on the bottom of the board to address the CAN transceiver directly, bypassing the MCP2515.
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
-
-Product Versions
-----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU](retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+  
+* **[MCP2515 Datasheet](https://cdn.sparkfun.com/assets/1/0/e/4/0/MCP2515-Family-Data-Sheet-DS20001801K.pdf)** -MCP2515 Stand-Alone CAN Controller
+* **[MCP2551 Datasheet](https://cdn.sparkfun.com/assets/8/d/9/b/8/20001667G.pdf)** -MCP2551 High-Speed CAN Transceiver
+* **[Arduino Library](https://github.com/sandeepmistry/arduino-CAN)** -Sandeep Mistry's arduino-CAN library
 
 License Information
 -------------------
@@ -49,5 +34,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
